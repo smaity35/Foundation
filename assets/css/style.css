@@ -1345,7 +1345,7 @@ body {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 80%;
   }
 }
 
@@ -1666,6 +1666,8 @@ a {
 button {
   cursor: pointer;
   -webkit-appearance: none;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 header {
@@ -1779,5 +1781,51 @@ header .menu ul li a.signIn:hover {
   font-size: 18px;
   -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
           box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+}
+
+.landingHeroSec .form button:hover {
+  background-color: #000;
+}
+
+.inicialOurSpacial {
+  padding: 80px 0 30px;
+  text-align: center;
+}
+
+.inicialOurSpacial h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7c4dff;
+  margin-bottom: 20px;
+}
+
+.inicialOurSpacial h3 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #343434;
+}
+
+.inicialOurSpacial p {
+  font-size: 26px;
+  color: #343434;
+  margin-bottom: 30px;
+}
+
+.inicialOurSpacial .orbit .orbit-slide {
+  padding: 0 15%;
+}
+
+.inicialOurSpacial .orbit .docs-example-orbit-slide {
+  border: 1px solid #707070;
+}
+
+.inicialOurSpacial .orbit img {
+  display: block;
+  width: 100%;
+}
+
+.inicialOurSpacial .orbit .orbit-bullets button {
+  width: 15px;
+  height: 15px;
 }
 /*# sourceMappingURL=style.css.map */

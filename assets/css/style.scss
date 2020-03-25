@@ -1125,7 +1125,7 @@ body {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 80%;
   }
 }
 
@@ -1388,6 +1388,7 @@ a {
 button{
     cursor: pointer;
     -webkit-appearance: none;
+    transition: ease 0.3s;
 }
 
 header {
@@ -1484,6 +1485,50 @@ header {
           color: #fff;
           font-size: 18px;
           box-shadow: 0 3px 6px rgba($pcolor,0.78);
+          &:hover{
+              background-color: #000;
+          }
       }
   }
+}
+
+
+.inicialOurSpacial{
+    padding: 80px 0 30px;
+    text-align: center;
+    h6{
+        font-size: 18px;
+        font-weight: 600;
+        color: $pcolor;
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size: 29px;
+        font-weight: 600;
+        color: #343434;
+    }
+    p{
+        font-size: 26px;
+        color: #343434;
+        margin-bottom: 30px;
+    }
+
+    .orbit{
+        .orbit-slide{
+            padding: 0 15%;
+        }
+        .docs-example-orbit-slide{
+            border: 1px solid #707070;
+        }
+        img{
+            display: block;
+            width: 100%;
+        }
+        .orbit-bullets{
+            button{
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
 }
