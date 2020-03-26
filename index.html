@@ -16,7 +16,63 @@
 
 <body>
 
+  <div class="reveal loginModalWrap" id="logInModal" data-reveal>
+    <div class="loginModalWrapInside">
+      <h3>Welcome back</h3>
+      <p>Enter your login details</p>
 
+      <div class="form">
+        <div class="frow">
+          <label>Email Address</label>
+          <input type="email" placeholder="johndoe@gmail.com">
+        </div>
+        <div class="frow">
+          <label>Choose Password</label>
+          <input type="password" placeholder="***************">
+        </div>
+        <div class="frow">
+          <button type="submit">Sign in</button>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button> -->
+  </div>
+
+
+  <div class="reveal loginModalWrap" id="registerModal" data-reveal>
+    <div class="loginModalWrapInside">
+      <h3>Let's get started!</h3>
+      <p>Enter your basic details below
+        to get started with your free trial</p>
+
+      <div class="form">
+        <div class="frow">
+          <label>First Name</label>
+          <input type="text" placeholder="Jon">
+        </div>
+        <div class="frow">
+          <label>Last Name</label>
+          <input type="text" placeholder="Doe">
+        </div>
+        <div class="frow">
+          <label>Email Address</label>
+          <input type="email" placeholder="johndoe@gmail.com">
+        </div>
+        <div class="frow">
+          <label>Choose Password</label>
+          <input type="password" placeholder="***************">
+        </div>
+        <div class="frow">
+          <button type="submit">Get Started For Free</button>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="close-button" data-close aria-label="Close reveal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button> -->
+  </div>
 
   <header>
     <div class="container-fluid">
@@ -29,7 +85,7 @@
           <ul>
             <li><a href="">Pricing</a></li>
             <li><a href="">Contact Us</a></li>
-            <li><a href="javascript:void(0)" class="signIn">Sign In</a></li>
+            <li><a href="javascript:void(0)" data-open="logInModal" class="signIn">Sign In</a></li>
           </ul>
         </div>
       </div>
@@ -48,10 +104,13 @@
             your customers.
           </p>
 
-          <div class="form">
+          <div class="btnBox">
+            <button type="button" data-open="registerModal">Get Started For Free</button>
+          </div>
+          <!-- <div class="form">
             <input type="text" placeholder="Enter your email">
             <button type="button">Get started for Free</button>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -61,9 +120,10 @@
   <section class="inicialOurSpacial">
     <div class="container-lg">
       <div class="top">
-        <h6>OUR SPECIALITY</h6>
+        <!-- <h6>OUR SPECIALITY</h6> -->
         <h3>Run your entire business all-in-one location</h3>
-        <p>Deliver high-quality work on time by planning, scheduling and tracking all of your assignments in one place.</p>
+        <p>Deliver high-quality work on time by planning, scheduling and tracking all of your assignments in one place.
+        </p>
 
         <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
           <ul class="orbit-container">
@@ -84,7 +144,7 @@
                 <img src="assets/images/img2.jpg" alt="">
               </div>
             </li>
-          
+
           </ul>
           <nav class="orbit-bullets">
             <button class="is-active" data-slide="0">
@@ -96,8 +156,196 @@
           </nav>
         </div>
 
-        
-       
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="mislaniousOneWrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Companies that maintain all of their core-functions in a single location
+            are more likely to grow their business on a <b>strong</b> foundation</p>
+          <img src="assets/images/img3.jpg" alt="">
+          <button data-open="registerModal" type="button">Get Started For Free</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clientTestimonial">
+    <div class="container">
+      <h3>What our valuable customers
+        are saying about us</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
+            data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+            <ul class="orbit-container">
+              <!-- <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+              <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button> -->
+              <li class="is-active orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    K.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    K.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    K.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    K.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    MK.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit velit porro eos animi sequi neque
+                    commodi. Voluptatum sed ipsum nostrum ducimus voluptate cumque, harum.
+                  </p>
+                  <h4>
+                    KK.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, dolorum illo reprehenderit enim laborum sint.
+                  </p>
+                  <h4>
+                    S.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+              <li class="orbit-slide">
+                <div class="content">
+                  <img class="orbit-image" src="assets/images/cote.png" alt="Space">
+                  <h4>We feel world-class!</h4>
+                  <p>
+                    Operwell gives us the tools we need to stay connected and focused.
+                    This didn't just improve out workflow, it finally allowed
+                    us to have one in the first place... and we feel world-class!
+                  </p>
+                  <h4>
+                    K.Singh
+                    <small>Managing Director</small>
+                  </h4>
+                </div>
+              </li>
+            </ul>
+            <nav class="orbit-bullets">
+              <button class="is-active" data-slide="0"><img src="assets/images/face1.jpg" alt=""></button>
+              <button data-slide="1"><img src="assets/images/face2.jpg" alt=""></button>
+              <button data-slide="2"><img src="assets/images/face3.jpg" alt=""></button>
+              <button data-slide="3"><img src="assets/images/face4.jpg" alt=""></button>
+              <button data-slide="4"><img src="assets/images/face5.jpg" alt=""></button>
+              <button data-slide="5"><img src="assets/images/face6.jpg" alt=""></button>
+              <button data-slide="6"><img src="assets/images/face3.jpg" alt=""></button>
+              <button data-slide="7"><img src="assets/images/face4.jpg" alt=""></button>
+              <button data-slide="8"><img src="assets/images/face4.jpg" alt=""></button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intutivOnbording">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <h3>Intuitive Onboarding</h3>
+          <p>Operwell quickly integrates new team members into their
+            daily work and allows them to focus on what matters most.</p>
+           <br>
+           <br>
+          <h3>
+            Any Process. Any Division. Any Industry.
+          </h3>
+          
+          <p>
+            Operwell acts as your company's infrastructure; allowing each
+            department to focus on their specialized while ensuring clear
+            communication channels exist for multi-team collaboration.
+          </p>
+          <button type="button" data-open="registerModal">Get Started For Free</button>
+        </div>
+        <div class="col-md-7">
+          <img src="assets/images/img2.png" alt="">
+        </div>
       </div>
     </div>
   </section>
