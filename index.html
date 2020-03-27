@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
     rel="stylesheet">
@@ -76,12 +77,12 @@
 
   <header>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 logo">
+      <div class="row justify-content-between">
+        <div class="col-auto logo">
           <a href="index.html"><span>Operwell<sup>TM</sup></span></a>
         </div>
 
-        <div class="col-md-6 menu">
+        <div class="col-auto menu">
           <ul>
             <li><a href="">Pricing</a></li>
             <li><a href="">Contact Us</a></li>
@@ -177,8 +178,8 @@
 
   <section class="clientTestimonial">
     <div class="container">
-      <h3>What our valuable customers
-        are saying about us</h3>
+      <!-- <h3>What our valuable customers
+        are saying about us</h3> -->
       <div class="row">
         <div class="col-md-12">
           <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
@@ -330,12 +331,12 @@
           <h3>Intuitive Onboarding</h3>
           <p>Operwell quickly integrates new team members into their
             daily work and allows them to focus on what matters most.</p>
-           <br>
-           <br>
+          <br>
+          <br>
           <h3>
             Any Process. Any Division. Any Industry.
           </h3>
-          
+
           <p>
             Operwell acts as your company's infrastructure; allowing each
             department to focus on their specialized while ensuring clear
@@ -347,6 +348,23 @@
           <img src="assets/images/img2.png" alt="">
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="iconsAreaWrap">
+    <div class="container">
+      <div class="row" id="demo"></div>
+      <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML =
+              this.responseText;
+          }
+        };
+        xhttp.open("GET", "icon.txt", true);
+        xhttp.send();
+      </script>
     </div>
   </section>
 

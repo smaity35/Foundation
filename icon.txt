@@ -1,0 +1,264 @@
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+   <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="iconBoxWap">
+            <div class="icon">
+              <span class="material-icons">
+                account_balance_wallet
+              </span>
+            </div>
+            <p>Dashboards</p>
+          </div>
+        </div>	

@@ -1476,8 +1476,8 @@ header {
   left: 0;
   width: 100%;
   top: 0;
-  padding: 15px 0;
-
+  padding: 25px 0;
+  background-color: #fff;
   .logo {
     a {
       font-size: 36px;
@@ -1522,16 +1522,17 @@ header {
   }
 }
 .landingHeroSec {
-  background-image: url("../images/img1.png");
-  background-position: right bottom;
-  background-size: auto 80%;
-  height: 78vh;
+  background-image: url("../images/img1.jpg");
+  background-position: top right;
+  background-size: auto 100%;
+  // height: 78vh;
   background-repeat: no-repeat;
-
+  background-color: #EDEFEE;
   h3 {
     font-size: 49px;
     font-weight: 600;
     margin-bottom: 30px;
+    color: #101A66;
   }
 
   p {
@@ -1739,4 +1740,31 @@ header {
     width: auto;
     margin-top: 50px;
   }
+}
+
+.iconsAreaWrap{
+    .iconBoxWap{
+      text-align: center;
+      margin-bottom: 40px;
+      .icon{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 118px;
+        height: 118px;
+        background-color: #D2CA58;
+        color: #ADA01E;
+        font-size: 70px;
+        margin: 0 auto;
+        border-radius: 3px;
+        transition: ease 0.3s;
+        &:hover{
+          color: #fff;
+        }
+        .material-icons{
+          font-size: inherit;          
+        }
+      }
+    }
 }

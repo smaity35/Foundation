@@ -1760,7 +1760,8 @@ header {
   left: 0;
   width: 100%;
   top: 0;
-  padding: 15px 0;
+  padding: 25px 0;
+  background-color: #fff;
 }
 
 header .logo a {
@@ -1812,17 +1813,18 @@ header .menu ul li a.signIn:hover {
 }
 
 .landingHeroSec {
-  background-image: url("../images/img1.png");
-  background-position: right bottom;
-  background-size: auto 80%;
-  height: 78vh;
+  background-image: url("../images/img1.jpg");
+  background-position: top right;
+  background-size: auto 100%;
   background-repeat: no-repeat;
+  background-color: #EDEFEE;
 }
 
 .landingHeroSec h3 {
   font-size: 49px;
   font-weight: 600;
   margin-bottom: 30px;
+  color: #101A66;
 }
 
 .landingHeroSec p {
@@ -2083,5 +2085,40 @@ header .menu ul li a.signIn:hover {
   display: inline-block;
   width: auto;
   margin-top: 50px;
+}
+
+.iconsAreaWrap .iconBoxWap {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.iconsAreaWrap .iconBoxWap .icon {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 118px;
+  height: 118px;
+  background-color: #D2CA58;
+  color: #ADA01E;
+  font-size: 70px;
+  margin: 0 auto;
+  border-radius: 3px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.iconsAreaWrap .iconBoxWap .icon:hover {
+  color: #fff;
+}
+
+.iconsAreaWrap .iconBoxWap .icon .material-icons {
+  font-size: inherit;
 }
 /*# sourceMappingURL=style.css.map */
