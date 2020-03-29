@@ -1653,6 +1653,24 @@ body {
       align-self: stretch !important;
 }
 
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 .vh-100 {
   height: 100vh !important;
 }
@@ -1670,7 +1688,7 @@ button {
   transition: ease 0.3s;
 }
 
-.mislaniousOneWrap button, .intutivOnbording button {
+.mislaniousOneWrap button, .intutivOnbording button, .inicialSecDownOne button {
   padding: 0 20px;
   line-height: 46px;
   border-radius: 4px;
@@ -1684,7 +1702,7 @@ button {
           box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
 }
 
-.mislaniousOneWrap button:hover, .intutivOnbording button:hover {
+.mislaniousOneWrap button:hover, .intutivOnbording button:hover, .inicialSecDownOne button:hover {
   background-color: #000;
 }
 
@@ -1769,6 +1787,11 @@ header .logo a {
   color: #000;
 }
 
+header .logo a img {
+  display: block;
+  height: 73px;
+}
+
 header .logo a sup {
   font-size: 60%;
   top: -20px;
@@ -1817,14 +1840,18 @@ header .menu ul li a.signIn:hover {
   background-position: top right;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-color: #EDEFEE;
+  background-color: #edefee;
+}
+
+.landingHeroSec .row {
+  height: 85vh;
 }
 
 .landingHeroSec h3 {
   font-size: 49px;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #101A66;
+  color: #101a66;
 }
 
 .landingHeroSec p {
@@ -1889,7 +1916,7 @@ header .menu ul li a.signIn:hover {
 }
 
 .inicialOurSpacial {
-  padding: 80px 0 30px;
+  padding: 20px 0 30px;
   text-align: center;
 }
 
@@ -1973,6 +2000,7 @@ header .menu ul li a.signIn:hover {
 .clientTestimonial .orbit .orbit-slide .content img {
   width: 48px;
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .clientTestimonial .orbit .orbit-slide .content h4 {
@@ -2070,7 +2098,7 @@ header .menu ul li a.signIn:hover {
 
 .intutivOnbording p {
   font-size: 18px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   line-height: normal;
 }
 
@@ -2085,6 +2113,26 @@ header .menu ul li a.signIn:hover {
   display: inline-block;
   width: auto;
   margin-top: 50px;
+}
+
+.iconsAreaWrap .row .col-md-3:nth-child(1n) .iconBoxWap .icon {
+  background-color: #d2ca58;
+  color: #ada01e;
+}
+
+.iconsAreaWrap .row .col-md-3:nth-child(2n) .iconBoxWap .icon {
+  background-color: #8467e3;
+  color: #442aca;
+}
+
+.iconsAreaWrap .row .col-md-3:nth-child(3n) .iconBoxWap .icon {
+  background-color: #5cb8ac;
+  color: #218574;
+}
+
+.iconsAreaWrap .row .col-md-3:nth-child(4n) .iconBoxWap .icon {
+  background-color: #b46484;
+  color: #7f2744;
 }
 
 .iconsAreaWrap .iconBoxWap {
@@ -2105,8 +2153,6 @@ header .menu ul li a.signIn:hover {
           justify-content: center;
   width: 118px;
   height: 118px;
-  background-color: #D2CA58;
-  color: #ADA01E;
   font-size: 70px;
   margin: 0 auto;
   border-radius: 3px;
@@ -2120,5 +2166,74 @@ header .menu ul li a.signIn:hover {
 
 .iconsAreaWrap .iconBoxWap .icon .material-icons {
   font-size: inherit;
+}
+
+.inicialSecDownOne {
+  padding: 60px 0;
+}
+
+.inicialSecDownOne p {
+  font-size: 35px;
+}
+
+.inicialSecDownOne h3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.inicialSecDownOne button {
+  font-size: 33px;
+  line-height: 66px;
+  display: inline-block;
+  width: auto;
+  margin-top: 20px;
+}
+
+.initialFooterWrap {
+  background-color: #212240;
+  padding: 20px 0;
+}
+
+.initialFooterWrap .footerSocial ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.initialFooterWrap .footerSocial ul li a {
+  display: block;
+  padding: 0 10px;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.initialFooterWrap .footerSocial ul li a:hover {
+  color: #fff;
+}
+
+.initialFooterWrap .copyRight {
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.initialFooterWrap .footlink ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.initialFooterWrap .footlink ul li a {
+  display: block;
+  padding: 0 10px;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.initialFooterWrap .footlink ul li a:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
