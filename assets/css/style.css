@@ -4219,4 +4219,115 @@ header .menu ul li a.signIn:hover {
 .contactPageWrap .form .submitBtn:hover {
   background-color: #000;
 }
+
+.pricingPageWrap {
+  padding: 80px 0;
+}
+
+.pricingPageWrap .secHead h3 {
+  font-size: 49px;
+}
+
+.pricingPageWrap .secHead p {
+  font-size: 24px;
+}
+
+.pricingPageWrap .tabList {
+  border: 0;
+}
+
+.pricingPageWrap .tabList li {
+  float: none;
+  border: 1px solid #707070;
+}
+
+.pricingPageWrap .tabList li.is-active a {
+  background-color: #8BC7F5;
+}
+
+.pricingPageWrap .tabList li a {
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.pricingPageWrap .csuite {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.pricingPageWrap .csuite span {
+  color: #fff;
+  font-size: 27px;
+  line-height: 50px;
+  background-color: #2437E8;
+  width: 360px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.pricingPageWrap .tabs-content {
+  border: 0;
+}
+
+.pricingPageWrap .tabs-content .content {
+  text-align: center;
+}
+
+.pricingPageWrap .tabs-content .content .left p {
+  font-size: 24px;
+}
+
+.pricingPageWrap .tabs-content .content .tabs {
+  border: 0;
+}
+
+.pricingPageWrap .tabs-content .content .tabs li.is-active a {
+  font-weight: bold;
+  border-bottom: 2px solid #08DE41;
+}
+
+.pricingPageWrap .tabs-content .content .tabs li a {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.pricingPageWrap .tabs-content .content .tabs-content {
+  border: 0;
+}
+
+.pricingPageWrap .tabs-content .content .tabs-content .tabs-panel {
+  padding: 0;
+}
+
+.pricingPageWrap .tabs-content .content .tabs-content h1 {
+  color: #2437E8;
+  font-size: 101px;
+  margin: 0;
+  padding: 0 50px;
+}
+
+.pricingPageWrap .tabs-content .content .right p {
+  font-size: 22px;
+}
+
+.pricingPageWrap .tabs-content .content .right p span {
+  display: block;
+  color: #2437E8;
+}
+
+.pricingPageWrap .tabs-content .content .right button {
+  display: inline-block;
+  line-height: 46px;
+  background-color: #7C4DFF;
+  font-size: 18px;
+  padding: 0 20px;
+  -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+          box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

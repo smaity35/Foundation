@@ -3792,3 +3792,111 @@ header {
     }
   }
 }
+
+
+.pricingPageWrap{
+  padding: 80px 0;
+  .secHead{
+    h3{
+      font-size: 49px;
+    }
+    p{
+      font-size: 24px;
+    }
+  }
+
+  .tabList{
+    border: 0;
+    li{
+      float: none;
+      border: 1px solid #707070;
+      &.is-active{
+        a{
+          background-color: #8BC7F5;
+        }
+      }
+      a{
+        font-size: 24px;
+        color: #000000;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .csuite{
+    text-align: center;
+    padding: 40px 0;
+    span{
+      color: #fff;
+      font-size: 27px;
+      line-height: 50px;
+      background-color: #2437E8;
+      width: 360px;
+      max-width: 100%;
+      display: inline-block;
+    }
+  }
+  
+  .tabs-content{
+    border: 0;
+    .content{
+      text-align: center;
+      .left{
+        p{
+          font-size: 24px;
+        }
+      }
+      .tabs{
+        border: 0;
+        li{
+          &.is-active{
+            a{
+              font-weight: bold;
+              border-bottom: 2px solid #08DE41;
+            }
+          }
+          a{
+            display: block;
+            text-align: center;
+            background-color: transparent;
+            padding: 10px 10px;
+            font-size: 20px;
+            color: #000000;
+
+          }
+        }
+      }
+      .tabs-content{
+        border: 0;
+        .tabs-panel{
+          padding: 0;
+        }
+        h1{
+          color: #2437E8  ;
+          font-size: 101px;
+          margin: 0;
+          padding: 0 50px;
+        }
+      }
+
+      .right{
+        p{
+          font-size: 22px;
+          span{
+            display: block;
+            color: #2437E8;            
+          }
+        }
+        button{
+          display: inline-block;
+          line-height: 46px;
+          background-color: #7C4DFF;
+          font-size: 18px;
+          padding: 0 20px;
+          box-shadow: 0 3px 6px rgba(#7C4DFF,0.78);
+          color: #fff;
+        }
+      }
+    }
+  }
+}
