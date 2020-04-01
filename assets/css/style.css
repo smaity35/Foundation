@@ -4343,4 +4343,18 @@ header .menu ul li a.signIn:hover {
           box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
   color: #fff;
 }
+
+.pricingPageWrap .tabs-content .mybtn {
+  padding: 0 20px;
+  line-height: 46px;
+  border-radius: 4px;
+  background-color: #7c4dff;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+  box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+}
 /*# sourceMappingURL=style.css.map */
