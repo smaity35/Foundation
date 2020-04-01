@@ -3312,7 +3312,7 @@ header {
       color: #000;
       img {
         display: block;
-        height: 73px;
+        height: 50px;
       }
       sup {
         font-size: 60%;
@@ -3678,7 +3678,7 @@ header {
   padding: 60px 0;
   .icoBox{
     img{
-      height: 150px;
+      height: 140px;
     }
   }
   p {
@@ -3825,9 +3825,10 @@ header {
         }
       }
       a{
-        font-size: 24px;
+        font-size: 20px;
         color: #000000;
         font-weight: bold;
+        padding: 1.0rem 1.2rem;
       }
     }
   }
@@ -3850,6 +3851,9 @@ header {
     border: 0;
     .content{
       text-align: center;
+      .col-auto{
+        width: 26%;
+      }
       .left{
         p{
           font-size: 24px;
@@ -3884,8 +3888,7 @@ header {
           color: #2437E8  ;
           font-size: 101px;
           margin: 0;
-          padding: 0 50px;
-        }
+         }
       }
 
       .right{
