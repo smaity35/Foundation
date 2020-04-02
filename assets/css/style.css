@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 body {
   font-family: Calibri, "Trebuchet MS", sans-serif;
 }
@@ -3554,6 +3558,8 @@ button {
 
 .loginModalWrap {
   width: 520px;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .loginModalWrap .loginModalWrapInside {
@@ -4251,14 +4257,14 @@ header .menu ul li a.signIn:hover {
 }
 
 .pricingPageWrap .tabList li.is-active a {
-  background-color: #8BC7F5;
+  background-color: #8bc7f5;
 }
 
 .pricingPageWrap .tabList li a {
   font-size: 20px;
   color: #000000;
   font-weight: bold;
-  padding: 1.0rem 1.2rem;
+  padding: 1rem 1.2rem;
 }
 
 .pricingPageWrap .csuite {
@@ -4270,7 +4276,7 @@ header .menu ul li a.signIn:hover {
   color: #fff;
   font-size: 27px;
   line-height: 50px;
-  background-color: #2437E8;
+  background-color: #2437e8;
   width: 360px;
   max-width: 100%;
   display: inline-block;
@@ -4298,7 +4304,7 @@ header .menu ul li a.signIn:hover {
 
 .pricingPageWrap .tabs-content .content .tabs li.is-active a {
   font-weight: bold;
-  border-bottom: 2px solid #08DE41;
+  border-bottom: 2px solid #08de41;
 }
 
 .pricingPageWrap .tabs-content .content .tabs li a {
@@ -4319,7 +4325,7 @@ header .menu ul li a.signIn:hover {
 }
 
 .pricingPageWrap .tabs-content .content .tabs-content h1 {
-  color: #2437E8;
+  color: #2437e8;
   font-size: 101px;
   margin: 0;
 }
@@ -4330,13 +4336,13 @@ header .menu ul li a.signIn:hover {
 
 .pricingPageWrap .tabs-content .content .right p span {
   display: block;
-  color: #2437E8;
+  color: #2437e8;
 }
 
 .pricingPageWrap .tabs-content .content .right button {
   display: inline-block;
   line-height: 46px;
-  background-color: #7C4DFF;
+  background-color: #7c4dff;
   font-size: 18px;
   padding: 0 20px;
   -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
@@ -4357,4 +4363,346 @@ header .menu ul li a.signIn:hover {
   -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
   box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
 }
+
+@media only screen and (max-width: 1440px) {
+  header {
+    padding: 15px 0;
+  }
+  header .logo a img {
+    height: 40px;
+  }
+  .landingHeroSec h3 {
+    font-size: 40px;
+  }
+  .landingHeroSec p {
+    margin-bottom: 30px;
+    padding-right: 35%;
+  }
+  .landingHeroSec .btnBox button {
+    line-height: 56px;
+    font-size: 26px;
+  }
+  .inicialOurSpacial h3 {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .landingHeroSec h3 {
+    font-size: 30px;
+  }
+  .landingHeroSec p {
+    font-size: 20px;
+    padding-right: 25%;
+  }
+  .landingHeroSec .btnBox button {
+    line-height: 46px;
+    font-size: 20px;
+  }
+  .inicialOurSpacial h3 {
+    font-size: 32px;
+  }
+  .inicialOurSpacial p {
+    font-size: 20px;
+  }
+  .mislaniousOneWrap p {
+    padding: 0;
+  }
+  .mislaniousOneWrap button {
+    line-height: 46px;
+    font-size: 20px;
+  }
+  .intutivOnbording h3 {
+    font-size: 26px;
+  }
+  .intutivOnbording p ~ br {
+    display: none;
+  }
+  .intutivOnbording button {
+    line-height: 46px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .inicialSecDownOne .col-md-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .inicialSecDownOne .icoBox img {
+    height: 120px;
+  }
+  .inicialSecDownOne h3 {
+    font-size: 34px;
+  }
+  .inicialSecDownOne button {
+    line-height: 46px;
+    font-size: 20px;
+  }
+  .contactPageWrap {
+    padding: 50px 0;
+  }
+  .pricingPageWrap {
+    padding: 50px 0;
+  }
+  .pricingPageWrap .csuite span {
+    font-size: 22px;
+    line-height: 46px;
+    width: auto;
+    padding: 0 30px;
+  }
+  .pricingPageWrap .secHead h3 {
+    font-size: 38px;
+  }
+  .pricingPageWrap .tabs-content .content .col-auto {
+    width: 33.3333%;
+  }
+  .clientTestimonial .orbit {
+    padding: 0;
+  }
+  .clientTestimonial .orbit .orbit-slide .content p {
+    padding: 0 0%;
+  }
+  .clientTestimonial .orbit .orbit-bullets {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .landingHeroSec h3 {
+    font-size: 27px;
+  }
+  .landingHeroSec p {
+    padding: 0;
+  }
+  .contactPageWrap .container > .row {
+    display: block;
+  }
+  .contactPageWrap .container > .row > div {
+    max-width: 100%;
+  }
+  .pricingPageWrap {
+    padding: 30px 0;
+  }
+  .pricingPageWrap .csuite {
+    padding: 25px 0;
+  }
+  .pricingPageWrap .tabList li a {
+    font-size: 18px;
+  }
+  .pricingPageWrap .tabs-content .content .col-auto {
+    width: 100%;
+    text-align: center;
+  }
+  .pricingPageWrap .tabs-content .content .col-auto .tabs-title {
+    float: none;
+    display: inline-block;
+  }
+  .intutivOnbording {
+    text-align: center;
+    padding: 0 0 50px;
+  }
+  .intutivOnbording .row {
+    display: block;
+  }
+  .intutivOnbording .row > div {
+    max-width: 100%;
+  }
+  .inicialSecDownOne .icoBox img {
+    height: 100px;
+  }
+  .inicialSecDownOne .icoBox p {
+    font-size: 20px;
+  }
+  .inicialSecDownOne h3 {
+    margin-top: 40px;
+  }
+}
+
+/*
+@media only screen and (max-width: 767px) {
+  .loginModalWrap {
+    max-height: 95vh;
+    min-height: auto;
+    height: auto;
+    bottom: inherit;
+    margin: auto;
+    max-width: 80%;
+    .loginModalWrapInside {
+      padding: 0 15px;
+      p {
+        margin-bottom: 20px;
+      }
+      .form {
+        .frow {
+          margin-bottom: 10px;
+          input {
+            height: 36px;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    .row {
+      flex-wrap: nowrap;
+    }
+    .logo {
+      a {
+        img {
+          height: 30px;
+        }
+      }
+    }
+    .menu {
+      ul {
+        li {
+          padding: 0 10px;
+          a {
+            padding: 0;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 30px;
+            &.signIn {
+              line-height: 30px;
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .landingHeroSec {
+    background-color: rgba(#eee, 0.8);
+    background-blend-mode: lighten;
+    text-align: center;
+    .row {
+      padding: 40px 0;
+      height: auto;
+    }
+  }
+
+  .inicialOurSpacial {
+    h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .iconsAreaWrap {
+    .row {
+      > div {
+        width: 25%;
+      }
+    }
+  }
+
+  .inicialSecDownOne {
+    padding: 24px 0;
+    p {
+      font-size: 22px;
+    }
+    .col-md-3 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  .pricingPageWrap {
+    .csuite {
+      padding: 20px 0;
+      span {
+        font-size: 18px;
+      }
+    }
+    .tabs-content {
+      .tabs-panel {
+        padding: 0;
+      }
+      .content {
+        .left {
+          p {
+            margin: 0;
+          }
+        }
+        .tabs-content {
+          h1 {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+    .tabList {
+      li {
+        a {
+          font-size: 14px;
+          padding: 10px 13px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .iconsAreaWrap {
+    .row {
+      > div {
+        width:50%;
+      }
+    }
+  }
+
+  .pricingPageWrap {
+    .csuite {
+      padding: 20px 0;
+      span {
+        font-size: 13px;
+        padding: 0 15px;
+        line-height: 36px;
+      }
+    }
+    .tabs-content {
+      .tabs-panel {
+        padding: 0;
+      }
+      .content {
+        .left {
+          p {
+            margin: 0;
+          }
+        }
+        .tabs-content {
+          h1 {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+    .tabList {
+      li {
+        a {
+          font-size: 12px;
+          padding: 7px 8px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+*/
 /*# sourceMappingURL=style.css.map */

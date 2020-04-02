@@ -1,5 +1,9 @@
 $pcolor: #7c4dff;
 $cfont: Calibri, "Trebuchet MS", sans-serif;
+
+* {
+  outline: none;
+}
 body {
   // font-family: "Open Sans", sans-serif;
   font-family: Calibri, "Trebuchet MS", sans-serif;
@@ -3173,6 +3177,8 @@ button {
 
 .loginModalWrap {
   width: 520px;
+  max-width: 95%;
+  margin: 0 auto;
   .loginModalWrapInside {
     padding: 20px 30px;
     h3 {
@@ -3536,7 +3542,7 @@ header {
         border: 4px solid #fff;
         position: absolute;
         padding: 0;
-        &.is-active{
+        &.is-active {
           border-color: $pcolor;
         }
         &:nth-child(1) {
@@ -3676,8 +3682,8 @@ header {
 
 .inicialSecDownOne {
   padding: 60px 0;
-  .icoBox{
-    img{
+  .icoBox {
+    img {
       height: 140px;
     }
   }
@@ -3773,7 +3779,7 @@ header {
         margin-right: 20px;
         border: 1px solid rgba(#707070, 0.31);
       }
-      textarea { 
+      textarea {
         width: 100%;
         box-shadow: none;
         font-size: 18px;
@@ -3783,9 +3789,8 @@ header {
         margin-right: 20px;
         border: 1px solid rgba(#707070, 0.31);
       }
-    
     }
-    .submitBtn{
+    .submitBtn {
       padding: 0 30px;
       line-height: 46px;
       border-radius: 4px;
@@ -3802,116 +3807,114 @@ header {
   }
 }
 
-
-.pricingPageWrap{
+.pricingPageWrap {
   padding: 80px 0;
-  .secHead{
-    h3{
+  .secHead {
+    h3 {
       font-size: 49px;
     }
-    p{
+    p {
       font-size: 24px;
     }
   }
 
-  .tabList{
+  .tabList {
     border: 0;
-    li{
+    li {
       float: none;
       border: 1px solid #707070;
-      &.is-active{
-        a{
-          background-color: #8BC7F5;
+      &.is-active {
+        a {
+          background-color: #8bc7f5;
         }
       }
-      a{
+      a {
         font-size: 20px;
         color: #000000;
         font-weight: bold;
-        padding: 1.0rem 1.2rem;
+        padding: 1rem 1.2rem;
       }
     }
   }
 
-  .csuite{
+  .csuite {
     text-align: center;
     padding: 40px 0;
-    span{
+    span {
       color: #fff;
       font-size: 27px;
       line-height: 50px;
-      background-color: #2437E8;
+      background-color: #2437e8;
       width: 360px;
       max-width: 100%;
       display: inline-block;
     }
   }
-  
-  .tabs-content{
+
+  .tabs-content {
     border: 0;
-    .content{
+    .content {
       text-align: center;
-      .col-auto{
+      .col-auto {
         width: 26%;
       }
-      .left{
-        p{
+      .left {
+        p {
           font-size: 24px;
         }
       }
-      .tabs{
+      .tabs {
         border: 0;
-        li{
-          &.is-active{
-            a{
+        li {
+          &.is-active {
+            a {
               font-weight: bold;
-              border-bottom: 2px solid #08DE41;
+              border-bottom: 2px solid #08de41;
             }
           }
-          a{
+          a {
             display: block;
             text-align: center;
             background-color: transparent;
             padding: 10px 10px;
             font-size: 20px;
             color: #000000;
-
           }
         }
       }
-      .tabs-content{
+      .tabs-content {
         border: 0;
-        .tabs-panel{
+        .tabs-panel {
           padding: 0;
         }
-        h1{
-          color: #2437E8  ;
+        h1 {
+          color: #2437e8;
           font-size: 101px;
           margin: 0;
-         }
+        }
       }
 
-      .right{
-        p{
+      .right {
+        p {
           font-size: 22px;
-          span{
+          span {
             display: block;
-            color: #2437E8;            
+            color: #2437e8;
           }
         }
-        button{
+        button {
           display: inline-block;
           line-height: 46px;
-          background-color: #7C4DFF;
+          background-color: #7c4dff;
           font-size: 18px;
           padding: 0 20px;
-          box-shadow: 0 3px 6px rgba(#7C4DFF,0.78);
+          box-shadow: 0 3px 6px rgba(#7c4dff, 0.78);
           color: #fff;
         }
       }
     }
 
-    .mybtn{
+    .mybtn {
       padding: 0 20px;
       line-height: 46px;
       border-radius: 4px;
@@ -3926,3 +3929,410 @@ header {
     }
   }
 }
+
+
+
+@media only screen and (max-width: 1440px) {
+  header {
+    padding: 15px 0;
+    .logo {
+      a {
+        img {
+          height: 40px;
+        }
+      }
+    }
+  }
+  .landingHeroSec {
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      margin-bottom: 30px;
+      padding-right: 35%;
+    }
+    .btnBox {
+      button {
+        line-height: 56px;
+        font-size: 26px;
+      }
+    }
+  }
+  .inicialOurSpacial {
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .landingHeroSec {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+      padding-right: 25%;
+    }
+    .btnBox {
+      button {
+        line-height: 46px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .inicialOurSpacial {
+    h3 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .mislaniousOneWrap {
+    p {
+      padding: 0;
+    }
+    button {
+      line-height: 46px;
+      font-size: 20px;
+    }
+  }
+
+  .intutivOnbording {
+    h3 {
+      font-size: 26px;
+    }
+    p ~ br {
+      display: none;
+    }
+    button {
+      line-height: 46px;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  .inicialSecDownOne {
+    .col-md-3 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .icoBox {
+      img {
+        height: 120px;
+      }
+    }
+    h3 {
+      font-size: 34px;
+    }
+    button {
+      line-height: 46px;
+      font-size: 20px;
+    }
+  }
+
+  .contactPageWrap {
+    padding: 50px 0;
+  }
+
+  .pricingPageWrap {
+    padding: 50px 0;
+    .csuite {
+      span {
+        font-size: 22px;
+        line-height: 46px;
+        width: auto;
+        padding: 0 30px;
+      }
+    }
+    .secHead {
+      h3 {
+        font-size: 38px;
+      }
+    }
+    .tabs-content {
+      .content {
+        .col-auto {
+          width: 33.3333%;
+        }
+      }
+    }
+  }
+
+  .clientTestimonial {
+    .orbit {
+      padding: 0;
+      .orbit-slide {
+        .content {
+          p {
+            padding: 0 0%;
+          }
+        }
+      }
+      .orbit-bullets {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .landingHeroSec {
+    h3 {
+      font-size: 27px;
+    }
+    p {
+      padding: 0;
+    }
+  }
+  .contactPageWrap {
+    .container {
+      > .row {
+        display: block;
+        > div {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .pricingPageWrap {
+    padding: 30px 0;
+    .csuite {
+      padding: 25px 0;
+    }
+    .tabList {
+      li {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+    .tabs-content {
+      .content {
+        .col-auto {
+          width: 100%;
+          text-align: center;
+          .tabs-title {
+            float: none;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  .intutivOnbording {
+    text-align: center;
+    padding: 0 0 50px;
+    .row {
+      display: block;
+      > div {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .inicialSecDownOne {
+    .icoBox {
+      img {
+        height: 100px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    h3 {
+      margin-top: 40px;
+    }
+  }
+}
+/*
+@media only screen and (max-width: 767px) {
+  .loginModalWrap {
+    max-height: 95vh;
+    min-height: auto;
+    height: auto;
+    bottom: inherit;
+    margin: auto;
+    max-width: 80%;
+    .loginModalWrapInside {
+      padding: 0 15px;
+      p {
+        margin-bottom: 20px;
+      }
+      .form {
+        .frow {
+          margin-bottom: 10px;
+          input {
+            height: 36px;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    .row {
+      flex-wrap: nowrap;
+    }
+    .logo {
+      a {
+        img {
+          height: 30px;
+        }
+      }
+    }
+    .menu {
+      ul {
+        li {
+          padding: 0 10px;
+          a {
+            padding: 0;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 30px;
+            &.signIn {
+              line-height: 30px;
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .landingHeroSec {
+    background-color: rgba(#eee, 0.8);
+    background-blend-mode: lighten;
+    text-align: center;
+    .row {
+      padding: 40px 0;
+      height: auto;
+    }
+  }
+
+  .inicialOurSpacial {
+    h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .iconsAreaWrap {
+    .row {
+      > div {
+        width: 25%;
+      }
+    }
+  }
+
+  .inicialSecDownOne {
+    padding: 24px 0;
+    p {
+      font-size: 22px;
+    }
+    .col-md-3 {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  .pricingPageWrap {
+    .csuite {
+      padding: 20px 0;
+      span {
+        font-size: 18px;
+      }
+    }
+    .tabs-content {
+      .tabs-panel {
+        padding: 0;
+      }
+      .content {
+        .left {
+          p {
+            margin: 0;
+          }
+        }
+        .tabs-content {
+          h1 {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+    .tabList {
+      li {
+        a {
+          font-size: 14px;
+          padding: 10px 13px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .iconsAreaWrap {
+    .row {
+      > div {
+        width:50%;
+      }
+    }
+  }
+
+  .pricingPageWrap {
+    .csuite {
+      padding: 20px 0;
+      span {
+        font-size: 13px;
+        padding: 0 15px;
+        line-height: 36px;
+      }
+    }
+    .tabs-content {
+      .tabs-panel {
+        padding: 0;
+      }
+      .content {
+        .left {
+          p {
+            margin: 0;
+          }
+        }
+        .tabs-content {
+          h1 {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+    .tabList {
+      li {
+        a {
+          font-size: 12px;
+          padding: 7px 8px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+*/
