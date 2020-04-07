@@ -3594,7 +3594,11 @@ header {
   padding: 100px 0;
 
   h3 {
-    font-size: 31px;
+    // font-size: 31px;
+    // color: #343434;
+
+    font-size: 46px;
+    font-weight: 600;
     color: #343434;
   }
 
@@ -3703,7 +3707,7 @@ header {
     line-height: 66px;
     display: inline-block;
     width: auto;
-    margin-top: 20px;
+    margin-top: 60px;
   }
 }
 
