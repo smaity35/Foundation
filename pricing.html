@@ -144,15 +144,15 @@
           </div>
           <div class="col-md-12">
             <div class="frow">
-              <label >Additional Infomation</label>
+              <label>Additional Infomation</label>
               <textarea name="" id="" cols="30" rows="4" placeholder="Optional"></textarea>
             </div>
           </div>
-        
+
         </div>
-        
-        
-       
+
+
+
         <div class="frow">
           <button type="submit">Submit</button>
         </div>
@@ -206,14 +206,14 @@
         <li class="tabs-title"><a href="#panel4">25 Users</a></li>
         <li class="tabs-title"><a href="#panel5">50 Users</a></li>
         <!-- <li class="tabs-title"><a href="#panel6" data-open="hundreadModal">100+ Users</a></li> -->
-        <li class="tabs-title"><a href="#panel6"  >100+ Users</a></li>
+        <li class="tabs-title"><a href="#panel6">100+ Users</a></li>
       </ul>
 
       <div class="csuite">
         <span>The Complete Suite</span>
       </div>
 
-      <div class="tabs-content" data-tabs-content="example-tabs">
+      <div class="tabs-content   " data-tabs-content="example-tabs">
         <div class="tabs-panel is-active" id="panel1">
           <div class="content">
             <div class="row m-0 justify-content-center align-items-center">
@@ -221,9 +221,11 @@
               <div class="col-auto left">
                 <p>Billing Frequency</p>
                 <ul class="tabs" data-tabs id="example-tabs5User">
-                  <li class="tabs-title is-active"><a href="#panel5User1" aria-selected="true">Save 20% Annually</a>
+                  <li class="tabs-title is-active"><a href="#panel5User1" aria-selected="true" data-which="users5"
+                      data-what="yearly" onclick="changeFrequency('users5', 'annually')">Save 20% Annually</a>
                   </li>
-                  <li class="tabs-title"><a href="#panel5User2">Monthly</a></li>
+                  <li class="tabs-title"><a href="#panel5User2"
+                      onclick="changeFrequency('users5', 'monthly')">Monthly</a></li>
                 </ul>
               </div>
 
@@ -241,7 +243,7 @@
               <div class="col-auto right">
                 <p>
                   <span>USD/month</span>
-                  Billed annually
+                  Billed <b id="users5">annually</b>
                 </p>
                 <button type="button" data-open="registerModal">Get Started</button>
               </div>
@@ -256,9 +258,11 @@
               <div class="col-auto left">
                 <p>Billing Frequency</p>
                 <ul class="tabs" data-tabs id="example-tabs10User">
-                  <li class="tabs-title is-active"><a href="#panel10User1" aria-selected="true">Save 20% Annually</a>
+                  <li class="tabs-title is-active"><a href="#panel10User1" aria-selected="true"
+                      onclick="changeFrequency('users10', 'annually')">Save 20% Annually</a>
                   </li>
-                  <li class="tabs-title"><a href="#panel10User2">Monthly</a></li>
+                  <li class="tabs-title"><a href="#panel10User2"
+                      onclick="changeFrequency('users10', 'monthly')">Monthly</a></li>
                 </ul>
               </div>
 
@@ -276,7 +280,7 @@
               <div class="col-auto right">
                 <p>
                   <span>USD/month</span>
-                  Billed annually
+                  Billed <b id="users10">annually</b>
                 </p>
                 <button type="button" data-open="registerModal">Get Started</button>
               </div>
@@ -292,9 +296,9 @@
               <div class="col-auto left">
                 <p>Billing Frequency</p>
                 <ul class="tabs" data-tabs id="example-tabs15User">
-                  <li class="tabs-title is-active"><a href="#panel15User1" aria-selected="true">Save 20% Annually</a>
+                  <li class="tabs-title is-active"><a href="#panel15User1" aria-selected="true" onclick="changeFrequency('users15', 'annually')">Save 20% Annually</a>
                   </li>
-                  <li class="tabs-title"><a href="#panel15User2">Monthly</a></li>
+                  <li class="tabs-title"><a href="#panel15User2" onclick="changeFrequency('users15', 'monthly')">Monthly</a></li>
                 </ul>
               </div>
 
@@ -312,7 +316,7 @@
               <div class="col-auto right">
                 <p>
                   <span>USD/month</span>
-                  Billed annually
+                  Billed <b id="users15">annually</b>
                 </p>
                 <button type="button" data-open="registerModal">Get Started</button>
               </div>
@@ -328,9 +332,9 @@
               <div class="col-auto left">
                 <p>Billing Frequency</p>
                 <ul class="tabs" data-tabs id="example-tabs25User">
-                  <li class="tabs-title is-active"><a href="#panel25User1" aria-selected="true">Save 20% Annually</a>
+                  <li class="tabs-title is-active"><a href="#panel25User1" aria-selected="true" onclick="changeFrequency('users25', 'annually')">Save 20% Annually</a>
                   </li>
-                  <li class="tabs-title"><a href="#panel25User2">Monthly</a></li>
+                  <li class="tabs-title"><a href="#panel25User2" onclick="changeFrequency('users25', 'monthly')">Monthly</a></li>
                 </ul>
               </div>
 
@@ -348,7 +352,7 @@
               <div class="col-auto right">
                 <p>
                   <span>USD/month</span>
-                  Billed annually
+                  Billed <b id="users25">annually</b>
                 </p>
                 <button type="button" data-open="registerModal">Get Started</button>
               </div>
@@ -364,9 +368,9 @@
               <div class="col-auto left">
                 <p>Billing Frequency</p>
                 <ul class="tabs" data-tabs id="example-tabs50User">
-                  <li class="tabs-title is-active"><a href="#panel50User1" aria-selected="true">Save 20% Annually</a>
+                  <li class="tabs-title is-active"><a href="#panel50User1" aria-selected="true" onclick="changeFrequency('users50', 'annually')">Save 20% Annually</a>
                   </li>
-                  <li class="tabs-title"><a href="#panel50User2">Monthly</a></li>
+                  <li class="tabs-title"><a href="#panel50User2" onclick="changeFrequency('users50', 'monthly')">Monthly</a></li>
                 </ul>
               </div>
 
@@ -384,7 +388,7 @@
               <div class="col-auto right">
                 <p>
                   <span>USD/month</span>
-                  Billed annually
+                  Billed <b id="users50">annually</b>
                 </p>
                 <button type="button" data-open="registerModal">Get Started</button>
               </div>
@@ -426,10 +430,11 @@
           <p>Your membership comes with all features included</p>
 
           <style>
-            li{
+            li {
               font-size: 16px;
             }
-            li span{
+
+            li span {
               color: #08DE41;
             }
           </style>
@@ -479,6 +484,15 @@
   </section>
 
   <script src="assets/js/app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script>
+    changeFrequency = (which, what) => {
+      $("#" + which).html(what);
+    }
+  </script>
 </body>
 
 </html>
