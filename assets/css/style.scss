@@ -3905,7 +3905,7 @@ header {
             display: block;
             color: #2437e8;
           }
-          b{
+          b {
             font-weight: normal;
           }
         }
@@ -3937,7 +3937,79 @@ header {
   }
 }
 
+.verifyWrap {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/curve-design.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 
+  .verifyCard {
+    width: 600px;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 0 3px 6px rgba(#000, 0.30);
+    box-shadow: 0 3px 6px rgba(#000, 0.30);
+    .imgBox {
+      img {
+        width: 100px;
+      }
+    }
+    p {
+      margin-bottom: 0.6rem;
+      font-size: 1rem;
+      a {
+        color: #7c4dff;
+      }
+    }
+    .inputBox {
+      input {
+        display: inline-block;
+        width: auto;
+        font-size: 2rem;
+        text-align: center;
+        height: auto;
+        padding: 0 1rem;
+        box-shadow: none;
+        line-height: 50px;
+      }
+    }
+
+    .btnWrap {
+      button {
+        font-weight: 300;
+        padding: 0 30px;
+        line-height: 44px;
+        border-radius: 4px;
+        background-color: #7c4dff;
+        color: #fff;
+        font-size: 20px;
+        -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+        box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+        &:hover{
+          background-color: #333;
+        }
+      }
+    }
+
+    .resendLink{
+      padding-top: 2rem;
+      a{
+        color: #7c4dff;
+        font-weight: 600;
+        &:hover{
+          color: #333;
+        }
+      }
+    }
+  }
+}
 
 @media only screen and (max-width: 1440px) {
   header {
@@ -4166,7 +4238,8 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
-  p,h3{
+  p,
+  h3 {
     line-height: normal;
   }
   .loginModalWrap {
@@ -4208,7 +4281,7 @@ header {
       ul {
         li {
           padding: 0 8px;
-          &:last-child{
+          &:last-child {
             padding-right: 0;
           }
           a {
@@ -4234,10 +4307,10 @@ header {
       padding: 40px 0;
       height: auto;
     }
-    h3{
+    h3 {
       font-size: 22px;
     }
-    p{
+    p {
       font-size: 16px;
     }
   }
@@ -4250,7 +4323,7 @@ header {
       font-size: 16px;
     }
   }
-  .mislaniousOneWrap{
+  .mislaniousOneWrap {
     p {
       font-size: 16px;
     }
@@ -4273,7 +4346,7 @@ header {
       flex-basis: 50%;
       max-width: 50%;
     }
-    h3{
+    h3 {
       margin-top: 20px;
       font-size: 24px;
     }
@@ -4317,11 +4390,11 @@ header {
 @media only screen and (max-width: 585px) {
   .pricingPageWrap .secHead h3 {
     font-size: 30px;
-}
+  }
   .iconsAreaWrap {
     .row {
       > div {
-        width:50%;
+        width: 50%;
       }
     }
   }
@@ -4364,9 +4437,8 @@ header {
 }
 
 @media only screen and (max-width: 479px) {
-  .initialFooterWrap .footerSocial ul li a{
+  .initialFooterWrap .footerSocial ul li a {
     padding: 0 5px;
     font-size: 14px;
   }
 }
-

@@ -4369,6 +4369,88 @@ header .menu ul li a.signIn:hover {
   box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
 }
 
+.verifyWrap {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../images/curve-design.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.verifyWrap .verifyCard {
+  width: 600px;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.verifyWrap .verifyCard .imgBox img {
+  width: 100px;
+}
+
+.verifyWrap .verifyCard p {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.verifyWrap .verifyCard p a {
+  color: #7c4dff;
+}
+
+.verifyWrap .verifyCard .inputBox input {
+  display: inline-block;
+  width: auto;
+  font-size: 2rem;
+  text-align: center;
+  height: auto;
+  padding: 0 1rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  line-height: 50px;
+}
+
+.verifyWrap .verifyCard .btnWrap button {
+  font-weight: 300;
+  padding: 0 30px;
+  line-height: 44px;
+  border-radius: 4px;
+  background-color: #7c4dff;
+  color: #fff;
+  font-size: 20px;
+  -webkit-box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+  box-shadow: 0 3px 6px rgba(124, 77, 255, 0.78);
+}
+
+.verifyWrap .verifyCard .btnWrap button:hover {
+  background-color: #333;
+}
+
+.verifyWrap .verifyCard .resendLink {
+  padding-top: 2rem;
+}
+
+.verifyWrap .verifyCard .resendLink a {
+  color: #7c4dff;
+  font-weight: 600;
+}
+
+.verifyWrap .verifyCard .resendLink a:hover {
+  color: #333;
+}
+
 @media only screen and (max-width: 1440px) {
   header {
     padding: 15px 0;
@@ -4532,7 +4614,8 @@ header .menu ul li a.signIn:hover {
 }
 
 @media only screen and (max-width: 767px) {
-  p, h3 {
+  p,
+  h3 {
     line-height: normal;
   }
   .loginModalWrap {
